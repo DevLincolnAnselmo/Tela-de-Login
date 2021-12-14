@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    }
+    body{
+        background-image: linear-gradient(80deg, #2f3dff, #24dd81);
+        margin: 0;
+        padding: 0;
+        font-family: 'Arial', sans-serif;
+    }
+    .container {
+        height: 480px;
+        width: 350px;
+        background-color: white;
+        margin: 70px auto 50px;
+        border-radius: 5px;
+    }
+    .container2 {
+        padding: 20px;
+    }
+    .login {
+        text-align: center;
+        font-weight: bold;
+    }
+    input[type="text"],
+    input[type="password"] {
+        width: 100%;
+        padding: 12px;
+        border: none;
+        border-bottom: 1px solid grey;
+        margin: 0;
+    }
+    .orsignup {
+        text-align: center;
+        font-size: 13px;
+        color: gray;
+        padding: 5px 0 0;
+    }
+    .btn {
+        width: 80%;
+        display: block;
+        padding: 10px;
+        border-radius: 20px;
+        margin: 20px auto 10px;
+        border: none;
+        color: white;
+        background-image: linear-gradient(80deg, #2f3dff, #24dd81);
+    }
+    .btn:hover {
+        opacity: 0.5;
+    }
+    label{
+        display: block;
+        padding: 10px 0 0 10px;
+        font-size: 14px;
+        width: 100%;
+    }
+      a{
+        color: gray;
+        text-decoration: none;
+        font-size: 13px;
+        display: block;
+    }
+    .forpass {
+        padding: 10px 0;
+        text-align: right;
+    }
+    .signup {
+        text-align: center;
+        font-weight: 700;
+    }
+    .icon {
+        margin: 5px;
+    }
+    .fb {
+        color: navy;
+    }
+    .tw {
+        color: cornflowerblue;
+    }
+    .ge {
+        color: crimson;
+    }
+    #icons {
+        text-align: center;
+
+    }
+    
+    footer{
+        padding: 30px 0 0;
+    }
